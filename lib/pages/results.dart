@@ -1,9 +1,6 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:imc_improved/utils/utils.dart';
 import 'package:screenshot/screenshot.dart';
-import 'package:path_provider/path_provider.dart';
 
 class Results extends StatefulWidget {
   final double imc;
@@ -15,7 +12,6 @@ class Results extends StatefulWidget {
 
 class _ResultsState extends State<Results> {
   ScreenshotController screenshotController = ScreenshotController();
-  File _imageFile;
 
   @override
   Widget build(BuildContext context) {
@@ -112,17 +108,7 @@ class _ResultsState extends State<Results> {
                                     const EdgeInsets.fromLTRB(30, 20, 30, 20),
                                 child: Text("SALVAR RESULTADO"),
                               ),
-                              onTap: () {
-                                screenshotController
-                                    .capture()
-                                    .then((File image) {
-                                  setState(() {
-                                    _imageFile = image;
-                                  });
-                                }).catchError((onError) {
-                                  print(onError);
-                                });
-                              },
+                              onTap: () {},
                             ),
                           ),
                         ),
