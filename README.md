@@ -4,6 +4,6 @@ Aplicativo Flutter baseado no design de [Ruben Vaalt](https://dribbble.com/shots
 
 ## Capturas de Tela
 
-<img src="lib/assets/screenshots/Screenshot_1.png" width="200"/>
-<img src="lib/assets/screenshots/Gif_1.gif" width="200"/>
-<img src="lib/assets/screenshots/Screenshot_2.png" width="200"/>
+Captura 1| Captura 2 | Captura 3
+:-------------------------:|:----------:|:--------------:
+![](lib/assets/screenshots/Screenshot_1.png)|![](lib/assets/screenshots/Gif_1.gif)|![](lib/assets/screenshots/Screenshot_2.png)
