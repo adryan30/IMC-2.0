@@ -52,7 +52,7 @@ class _CardWithButtonsState extends State<CardWithButtons> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  PlusMinusButton(widget.increaseFunction, Icons.remove),
+                  PlusMinusButton(widget.decreaseFunction, Icons.remove),
                   SizedBox(
                     width: 16.5,
                   ),

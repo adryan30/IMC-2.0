@@ -158,12 +158,12 @@ class _InputPageState extends State<InputPage> {
                   data: age,
                   decreaseFunction: () {
                     setState(() {
-                      age--;
+                      age = age - 1;
                     });
                   },
                   increaseFunction: () {
                     setState(() {
-                      age++;
+                      age = age + 1;
                     });
                   },
                 ),

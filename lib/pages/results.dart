@@ -18,14 +18,6 @@ class _ResultsState extends State<Results> {
   File _imageFile;
 
   @override
-  void initState() async {
-    super.initState();
-    final directory = await getExternalStorageDirectory();
-    final myImagePath = '${directory.path}/IMC2.0';
-    final myImgDir = await new Directory(myImagePath).create();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Screenshot(
       controller: screenshotController,

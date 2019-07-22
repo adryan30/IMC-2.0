@@ -8,6 +8,7 @@ class IMC extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: appThemeData(),
       title: 'IMC 2.0',
       home: InputPage(),
